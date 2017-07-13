@@ -12,25 +12,24 @@ import RealmSwift
 
 class EventsTableViewController: UITableViewController {
 
-    var eventsArray = [String]()
     var objects = [Any]()
-//    let realm = try! Realm()
-//    lazy var events: Results<Object> = {
-//        self.realm.objects(Object.self)
-//    }()
+    let realm = try! Realm()
+    lazy var events: Results<Event1> = {
+        self.realm.objects(Event1.self)
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        for event in events {
-//            objects.append(event)
-//        }
+        for event in events {
+           objects.append(event)
+       }
     }
 
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return eventsArray.count
+        return objects.count
     }
     
     
@@ -44,13 +43,14 @@ class EventsTableViewController: UITableViewController {
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         alert.addAction(cancelAction)
          let insertAction = UIAlertAction(title: "Add", style: .default) { (action) in
-            self.eventsArray.append((alert.textFields![0]).text!)
+            let name = alert.textFields! [0] as UITextField
+            let myEvent = Event1(name: name.text!)
+            self.objects.append(myEvent)
+            try! self.realm.write {
+                self.realm.add(myEvent)
+            }
             self.tableView.reloadData()
         }
-//        self.objects.append(events)
-//        try! self.realm.write {
-//            self.realm.add(events)
-//        }
         self.tableView.reloadData()
         alert.addAction(insertAction)
         present(alert, animated: true, completion: nil)
@@ -60,8 +60,11 @@ class EventsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            self.eventsArray.remove(at: indexPath.row)
-            self.tableView.deleteRows(at: [indexPath], with: .automatic)
+            objects.remove(at: indexPath.row)
+            try! self.realm.write{
+                self.realm.delete(events)
+            }
+            self.tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
 
@@ -72,8 +75,9 @@ class EventsTableViewController: UITableViewController {
     
     public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
-        cell.textLabel?.text = eventsArray[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let object = objects[indexPath.row] as! Event1
+        cell.textLabel!.text = object.event
         return cell
     }
     

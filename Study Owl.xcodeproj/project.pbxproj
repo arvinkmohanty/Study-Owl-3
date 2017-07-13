@@ -23,6 +23,7 @@
 		63C3BAED1F155E1900AC2B8C /* AuditoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3BAEC1F155E1900AC2B8C /* AuditoryTableViewController.swift */; };
 		63C3BAEF1F155EA100AC2B8C /* KinestheticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3BAEE1F155EA100AC2B8C /* KinestheticTableViewController.swift */; };
 		63C3BAF11F155EB600AC2B8C /* KinestheticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3BAF01F155EB600AC2B8C /* KinestheticViewController.swift */; };
+		E0194BB11F172A8700ACE0EC /* Event1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0194BB01F172A8700ACE0EC /* Event1.swift */; };
 		F325D2661F16694100DD6367 /* TipsVisualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F325D2651F16694100DD6367 /* TipsVisualViewController.swift */; };
 		F325D2681F166ABD00DD6367 /* TipsAuditoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F325D2671F166ABD00DD6367 /* TipsAuditoryViewController.swift */; };
 		F32DCEAF1F166D99005D0C31 /* TipsKinestheticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32DCEAE1F166D99005D0C31 /* TipsKinestheticViewController.swift */; };
@@ -85,6 +86,7 @@
 		63C3BAEC1F155E1900AC2B8C /* AuditoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuditoryTableViewController.swift; sourceTree = "<group>"; };
 		63C3BAEE1F155EA100AC2B8C /* KinestheticTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinestheticTableViewController.swift; sourceTree = "<group>"; };
 		63C3BAF01F155EB600AC2B8C /* KinestheticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinestheticViewController.swift; sourceTree = "<group>"; };
+		E0194BB01F172A8700ACE0EC /* Event1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event1.swift; path = ../Event1.swift; sourceTree = "<group>"; };
 		F325D2651F16694100DD6367 /* TipsVisualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsVisualViewController.swift; sourceTree = "<group>"; };
 		F325D2671F166ABD00DD6367 /* TipsAuditoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsAuditoryViewController.swift; sourceTree = "<group>"; };
 		F32DCEAE1F166D99005D0C31 /* TipsKinestheticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsKinestheticViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				63C3BAB81F12FD2300AC2B8C /* AppDelegate.swift */,
 				63C3BABA1F12FD2300AC2B8C /* ViewController.swift */,
 				63C3BABC1F12FD2300AC2B8C /* Main.storyboard */,
+				E0194BB01F172A8700ACE0EC /* Event1.swift */,
 				F352E9411F16B5520096EB55 /* EventsTableViewController.swift */,
 				F32DCEAE1F166D99005D0C31 /* TipsKinestheticViewController.swift */,
 				63C3BAEE1F155EA100AC2B8C /* KinestheticTableViewController.swift */,
@@ -330,6 +333,7 @@
 				63C3BAEB1F155A4D00AC2B8C /* OwlClass.swift in Sources */,
 				63C3BAB91F12FD2300AC2B8C /* AppDelegate.swift in Sources */,
 				F352E9421F16B5520096EB55 /* EventsTableViewController.swift in Sources */,
+				E0194BB11F172A8700ACE0EC /* Event1.swift in Sources */,
 				F325D2661F16694100DD6367 /* TipsVisualViewController.swift in Sources */,
 				63C3BAF11F155EB600AC2B8C /* KinestheticViewController.swift in Sources */,
 				F325D2681F166ABD00DD6367 /* TipsAuditoryViewController.swift in Sources */,
