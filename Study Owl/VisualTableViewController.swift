@@ -22,8 +22,8 @@ class VisualTableViewController: UITableViewController {
     var english = [" http://www.corestandards.org/ELA-Literacy/W/6/", "http://www.scholastic.com/parents/books-and-reading/book-lists-and-recommendations/ages-11-13", "https://quizlet.com/120732897/6th-grade-common-core-vocabulary-flash-cards/"]
     var englishTitles = ["Common Core English Standards", "Age-Based Reading Recommendations", "English Common Core Flashcards"]
     
-    var socialStudies = ["https://bing.com", "https://bing.com", "https://bing.com"]
-    var socialStudiesTitles = ["First", "Second", "Third"]
+    var socialStudies = ["http://www.loc.gov/teachers/classroommaterials/primarysourcesets/wdl/", "http://www.loc.gov/rr/amed/guide/afrillguide.html", "http://www.loc.gov/rr/amed/guide/nesillguide.html", "http://www.loc.gov/rr/european/guide/toc.html", "https://www.pinterest.com/pin/139330182198838884", "https://www.lucidchart.com/pages/concept-map/how-to-make-a-concept-map", "http://www.nova.edu/yoursuccess/forms/outline-notetaking-method.pdf"]
+    var socialStudiesTitles = ["World Digital Library: Maps", "Illustrated Guide to Sub-Saharan Africa", "Illustrated Guide to Africa and the Middle East", "Illustrated Guide to European Collections", "Battles of the Civil War Infographic", "A Guide to Concept Maps", "Taking Notes with the Outline Format"]
     
     var url = ""
     

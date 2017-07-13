@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kyb-zI-Xf7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2104" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kyb-zI-Xf7">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -234,7 +234,7 @@
                                 <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KLK-DT-o1S" id="056-c7-mkm">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -502,7 +502,7 @@
         <scene sceneID="YeI-rq-LNX">
             <objects>
                 <tableViewController storyboardIdentifier="KinestheticTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ohG-hc-neo" customClass="KinestheticTableViewController" customModule="Study_Owl" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="XcM-5T-P06">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="XcM-5T-P06">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -525,11 +525,11 @@
                             </items>
                         </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Eja-j8-g8p">
-                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="Eja-j8-g8p">
+                                <rect key="frame" x="0.0" y="72" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Eja-j8-g8p" id="evM-9a-gVi">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -542,7 +542,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nmK-pd-EtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2585" y="1870"/>
+            <point key="canvasLocation" x="2584.8000000000002" y="1869.7151424287858"/>
         </scene>
         <!--Kinesthetic View Controller-->
         <scene sceneID="jhn-il-gDT">
@@ -728,7 +728,7 @@
         <scene sceneID="44V-sx-Cl6">
             <objects>
                 <tableViewController storyboardIdentifier="AuditoryTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1Xb-FS-ljh" customClass="AuditoryTableViewController" customModule="Study_Owl" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="5F3-DX-3vU">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="5F3-DX-3vU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -751,11 +751,11 @@
                             </items>
                         </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5cx-73-XQG">
-                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="5cx-73-XQG">
+                                <rect key="frame" x="0.0" y="72" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5cx-73-XQG" id="2CD-hh-zuU">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -768,7 +768,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XlF-Z9-KD8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2644" y="438"/>
+            <point key="canvasLocation" x="2644" y="437.63118440779613"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5rm-ky-wo4">
@@ -799,7 +799,7 @@
         <scene sceneID="0x2-XH-Kzy">
             <objects>
                 <tableViewController storyboardIdentifier="VisualTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qRN-1I-FRR" customClass="VisualTableViewController" customModule="Study_Owl" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="B9Q-Sr-aLC">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="61" sectionHeaderHeight="28" sectionFooterHeight="28" id="B9Q-Sr-aLC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -809,12 +809,12 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
                                 <navigationItem title="Visual Learner Resources" id="bU6-h6-ky3">
-                                    <barButtonItem key="leftBarButtonItem" systemItem="stop" id="FcV-EL-LMe">
+                                    <barButtonItem key="leftBarButtonItem" width="10" systemItem="stop" id="FcV-EL-LMe">
                                         <connections>
                                             <action selector="onXTapped:" destination="qRN-1I-FRR" id="AMf-Cs-cFG"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem key="rightBarButtonItem" systemItem="add" id="17l-91-pjh">
+                                    <barButtonItem key="rightBarButtonItem" width="10" systemItem="add" id="17l-91-pjh">
                                         <connections>
                                             <action selector="onEditTapped:" destination="qRN-1I-FRR" id="eA3-A5-fDc"/>
                                         </connections>
@@ -823,11 +823,11 @@
                             </items>
                         </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="FVM-Lu-c6A" customClass="TableViewCell" customModule="Study_Owl" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="60" id="FVM-Lu-c6A" customClass="TableViewCell" customModule="Study_Owl" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FVM-Lu-c6A" id="MhN-4k-gzK">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <gestureRecognizers/>
@@ -844,7 +844,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DpM-p8-Phk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2767" y="-949"/>
+            <point key="canvasLocation" x="2765.5999999999999" y="-949.47526236881572"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="900-Uv-oyh">
@@ -918,7 +918,7 @@
     <resources>
         <image name="ear" width="185" height="272"/>
         <image name="eye" width="600" height="600"/>
-        <image name="hand" width="1598" height="1600"/>
+        <image name="hand" width="256" height="256"/>
         <image name="owl" width="338" height="400"/>
         <image name="owlBackground" width="2250" height="4000"/>
     </resources>
