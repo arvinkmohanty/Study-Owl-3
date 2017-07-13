@@ -32,8 +32,6 @@ class EventsTableViewController: UITableViewController {
         return objects.count
     }
     
-    
-    
     func insertNewEvent(_ sender: Any)
     {
         let alert = UIAlertController(title: "Add Event", message: nil, preferredStyle: .alert)
@@ -58,13 +56,21 @@ class EventsTableViewController: UITableViewController {
         
     }
     
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) ->Bool{
+        return true
+    }
+    
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             objects.remove(at: indexPath.row)
             try! self.realm.write{
-                self.realm.delete(events)
+                self.realm.delete(events[indexPath.row])
             }
             self.tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+        else if editingStyle == .insert
+        {
+            
         }
     }
 
@@ -80,5 +86,4 @@ class EventsTableViewController: UITableViewController {
         cell.textLabel!.text = object.event
         return cell
     }
-    
 }
