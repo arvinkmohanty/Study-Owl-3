@@ -13,17 +13,13 @@ class ViewController: UIViewController{
     @IBOutlet weak var visualView: UIView!
     @IBOutlet weak var auditoryView: UIView!
     @IBOutlet weak var kinestheticView: UIView!
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
-
 }
 

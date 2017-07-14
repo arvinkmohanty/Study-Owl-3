@@ -15,11 +15,21 @@ class KinestheticTableViewController: UITableViewController {
     var math = ["http://www.coolmath.com/prealgebra", "http://sciencing.com/math-activities-kinesthetic-learners-12179525.html", "http://www.shodor.org/interactivate/activities/AdjustableSpinner/", "http://www.shodor.org/interactivate/activities/Angles/", "http://www.shodor.org/interactivate/activities/AreaExplorer/", "http://www.shodor.org/interactivate/activities/ArithmeticFour/"]
     var mathTitles = ["Pre-algebra games", "Article on math activities", "Interactive spinner (probability practice)", "Interactive Angle practice", "Interactive Area practice", "Arithmetic practice",]
     
-    var science = ["https://sciencebob.com/category/experiments/", "http://www.ssww.com/item/common-core-collaborative-cards-exponent-equations-grades-LR3109/?aid=GOG&cid=3294&oc=W3355&utm_campaign=pla&utm_medium=cpc&utm_source=google&utm_content=LR3109&gclid=CjwKEAjwqIfLBRCk6vH_rJq7yD0SJACG18fr54xs6VmnZBefageFb9bCUVwjkSeHocVXhyhcWa9GKxoC5tfw_wcB"]
-    var scienceTitles = ["Experiments you can try at home (with explanations)",]
+    var science = ["https://sciencebob.com/category/experiments/", "http://www.ssww.com/item/common-core-collaborative-cards-exponent-equations-grades-LR3109/?aid=GOG&cid=3294&oc=W3355&utm_campaign=pla&utm_medium=cpc&utm_source=google&utm_content=LR3109&gclid=CjwKEAjwqIfLBRCk6vH_rJq7yD0SJACG18fr54xs6VmnZBefageFb9bCUVwjkSeHocVXhyhcWa9GKxoC5tfw_wcB", "https://www.education.com/science-fair/article/what-tests-can-use-identify-minerals/",
+        "https://www.education.com/science-fair/article/find-ways-reduce-friction/",
+        "https://www.education.com/science-fair/article/chemistry_paper-chromatography/",
+        "https://www.education.com/science-fair/article/archimedes-principle-floats-boat/",
+        "https://www.education.com/science-fair/article/Self-Inflating-Balloon/"]
+    var scienceTitles = ["Experiments you can try at home (with explanations)", "Equations", "Identifying Minerals", "Reducing Friction Lab", "Archimedes Principle Lab", "Balloon Lab"]
     
-    var english = ["http://www.scholastic.com/parents/books-and-reading/book-lists-and-recommendations/ages-11-13", "https://prezi.com/xy1arpt4nimu/kinesthetic-learners-in-the-english-classroom/"]
-    var englishTitles = ["Free reading book recommendations", "For parents: A Kinesthetic Learner in the English Classroom"]
+    var english = ["http://www.scholastic.com/parents/books-and-reading/book-lists-and-recommendations/ages-11-13",
+        "https://prezi.com/xy1arpt4nimu/kinesthetic-learners-in-the-english-classroom/",
+        "https://quizlet.com/149494277/6th-grade-english-genre-flash-cards",
+        "https://www.vocabtest.com/middle_school/6th_grade.php",
+        "https://quizlet.com/125415517/6th-grade-english-characterizations-flash-cards/",
+        "http://www.k12reader.com/subject/reading-skills/reading-comprehension/6th-grade-reading-comprehension/",
+        "https://quizlet.com/96442584/6th-grade-grammar-snapshots-flash-cards/"]
+    var englishTitles = ["Free reading book recommendations", "For parents: A Kinesthetic Learner in the English Classroom", "English Flashcards", "Vocabulary Test", "Characterizations Flash Cards", "Reading Comprehension"]
     
     var socialStudies = ["https://quizlet.com/130932105/introduction-to-world-geography-and-culture-flash-cards/",
                          
